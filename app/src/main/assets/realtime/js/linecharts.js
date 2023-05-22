@@ -100,7 +100,7 @@ if('WebSocket' in window) {
     web= new WebSocket(Url);
 } else if('MozWebSocket' in window) {
     debug("MozWebSocket")
-    web = new MozWebSocket(Url);
+    web = new MozWebSocket(url);
 }
 
 

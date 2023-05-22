@@ -19,6 +19,6 @@ public class MainActivity extends AppCompatActivity {
         WebSettings settings= webView.getSettings();//获取网络视图设置
         settings.setJavaScriptEnabled(true);//设置启动JavaScript
         settings.setDomStorageEnabled(true);
-        webView.loadUrl("file:///android_asset/realtime/index.html");//设置要加载的界面
+        webView.loadUrl("http://10.19.48.75");//设置要加载的界面
     }
 }
